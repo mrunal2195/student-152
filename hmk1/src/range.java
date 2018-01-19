@@ -6,8 +6,10 @@ public class range implements rangeInterface{
 	 * Accepts two integers a and b
 	 * Returns the even numbers within the range of a and b.
 	 */
+
 	public ArrayList<Integer> numbersInRange(int a, int b) {
-			
+		
+	
 		ArrayList<Integer> evenNumbers=new ArrayList<>();
 		
 		if(a==b)
@@ -24,14 +26,14 @@ public class range implements rangeInterface{
 
 		for (int i=a;i<b-1; i++)
 		{
-			if((i+1)%2==0)
+			if((i+1)%2!=0)
 			 evenNumbers.add(i+1);
 		}
 		return evenNumbers;
 		
 		
 	}
-}	
+	
+	
 
-
-
+}

@@ -10,7 +10,7 @@ import junit.framework.TestCase;
 			range r=new range();
 			ArrayList<Integer> numbers = r.numbersInRange(2, 5);
 		    ArrayList<Integer> expectedNumbers=new ArrayList<Integer>();
-			expectedNumbers.add(4);
+			expectedNumbers.add(3);
 			
 			assert(numbers.equals(expectedNumbers));
 		}
@@ -19,7 +19,7 @@ import junit.framework.TestCase;
 			range r=new range();
 			ArrayList<Integer> numbers = r.numbersInRange(5, 2);
 		    ArrayList<Integer> expectedNumbers=new ArrayList<Integer>();
-		    expectedNumbers.add(4);
+		    expectedNumbers.add(2);
 			
 			assert(numbers.equals(expectedNumbers));
 		}
