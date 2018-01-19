@@ -18,7 +18,7 @@ public class range implements rangeInterface{
 		}
 		
 		if(a>b) {
-			int tmp = a;
+			int tmp = a;///
 			a = b;
 			b = tmp;
 		}
@@ -28,7 +28,7 @@ public class range implements rangeInterface{
 		{
 			if((i+1)%2!=0)
 			 evenNumbers.add(i+1);
-		}
+		}///
 		return evenNumbers;
 		
 		
